@@ -2,9 +2,9 @@
 
 namespace SmartDato\SfExpress;
 
+use SmartDato\SfExpress\Commands\SfExpressCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SmartDato\SfExpress\Commands\SfExpressCommand;
 
 class SfExpressServiceProvider extends PackageServiceProvider
 {
